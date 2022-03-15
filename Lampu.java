@@ -1,0 +1,11 @@
+public class Lampu {
+    boolean nyala = false;
+  
+    void nyalakanLampu() {
+        nyala = true;
+    }
+
+    void matikanLampu() {
+        nyala = false;
+    }
+}
